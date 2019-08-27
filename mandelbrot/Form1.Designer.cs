@@ -73,6 +73,8 @@
             this.pictureBox1.Size = new System.Drawing.Size(750, 751);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.MouseHover += new System.EventHandler(this.pictureBox1_MouseHover);
+            this.pictureBox1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseMove);
             // 
             // numericUpDown_yOffset
             // 
